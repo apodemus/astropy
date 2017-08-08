@@ -131,6 +131,7 @@ There are additional tools of use for developers in the
    :maxdepth: 1
 
    development/workflow/development_workflow
+   development/when_to_rebase
    development/codeguide
    development/docguide
    development/testguide
