@@ -171,6 +171,8 @@ astropy.tests
 
 astropy.time
 ^^^^^^^^^^^^
+- Added the ability to use ``local`` as time scale in ``Time`` and
+  ``TimeDelta``. [#6487]
 
 astropy.units
 ^^^^^^^^^^^^^
