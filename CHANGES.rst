@@ -912,6 +912,8 @@ astropy.utils
 astropy.visualization
 ^^^^^^^^^^^^^^^^^^^^^
 
+- Explicilty default to origin='lower' in WCSAxes. [#7331]
+
 astropy.vo
 ^^^^^^^^^^
 
