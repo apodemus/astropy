@@ -36,6 +36,8 @@ astropy.extern
 astropy.io.ascii
 ^^^^^^^^^^^^^^^^
 
+Latex reader now ignores ``\toprule``, ``\midrule``, and ``\bottomrule`` commands [#7349]
+
 astropy.io.misc
 ^^^^^^^^^^^^^^^
 
