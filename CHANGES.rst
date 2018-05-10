@@ -173,9 +173,6 @@ astropy.io.fits
   attributes to a TDISPn format string, if possible, and store it as a TDISPn
   keyword in the ``HDU`` header. [#7226]
 
-- ``diff_values()`, ``report_diff_values()``, and ``where_not_allclose()``
-  utility functions are moved to ``astropy.utils.diff``. [#7444]
-
 astropy.io.registry
 ^^^^^^^^^^^^^^^^^^^
 
