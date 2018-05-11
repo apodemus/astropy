@@ -1042,6 +1042,9 @@ astropy.tests
 astropy.time
 ^^^^^^^^^^^^
 
+- Fixed a bug in Time that raised an error when initializing a subclass of Time
+  with a Time object. [#7453]
+
 astropy.units
 ^^^^^^^^^^^^^
 
