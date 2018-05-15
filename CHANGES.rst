@@ -235,7 +235,7 @@ astropy.utils
 
 - ``InheritDocstrings`` now also works on class properties. [#7166]
 
-- ``diff_values()`, ``report_diff_values()``, and ``where_not_allclose()``
+- ``diff_values()``, ``report_diff_values()``, and ``where_not_allclose()``
   utility functions are moved from ``astropy.io.fits.diff``. [#7444]
 
 astropy.visualization
@@ -313,6 +313,7 @@ astropy.table
   property being evaluated the ``col[3:5]`` weak reference is dead.  Instead
   force a reference with ``c = col[3:5]`` followed by
   ``c.info.indices``. [#6277, #7448]
+- Fix printing table row indexed with unsigned integer. [#7464]
 
 astropy.tests
 ^^^^^^^^^^^^^
