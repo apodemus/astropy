@@ -131,6 +131,9 @@ astropy.utils
 astropy.visualization
 ^^^^^^^^^^^^^^^^^^^^^
 
+- Add support for setting ``set_separator(None)`` in WCSAxes to use default
+  separators. [#7570]
+
 astropy.wcs
 ^^^^^^^^^^^
 
