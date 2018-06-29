@@ -288,9 +288,6 @@ astropy.utils
 - ``diff_values()``, ``report_diff_values()``, and ``where_not_allclose()``
   utility functions are moved from ``astropy.io.fits.diff``. [#7444]
 
-- Added a ``show_progress`` option to ``IERS.open``, which allows the download
-  progress bar to be hidden. [#7577]
-
 astropy.visualization
 ^^^^^^^^^^^^^^^^^^^^^
 
@@ -399,6 +396,9 @@ astropy.utils
 
 - Fixed a bug due to which ``report_diff_values()`` was reporting incorrect
   number of differences when comparing two ``numpy.ndarray``. [#7470]
+
+- The download progress bar is now only displayed in terminals, to avoid
+  polluting piped output. [#7577]
 
 astropy.visualization
 ^^^^^^^^^^^^^^^^^^^^^
