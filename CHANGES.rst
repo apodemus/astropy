@@ -303,6 +303,8 @@ astropy.wcs
 Performance Improvements
 ------------------------
 
+- Reduced import time by more cautious use of the standard library. [#7647]
+
 astropy.coordinates
 ^^^^^^^^^^^^^^^^^^^
 
