@@ -1698,18 +1698,7 @@ class SkyCoord(ShapedLikeNDArray):
 
         from .name_resolve import get_icrs_coordinates
 
-        # if requested, first try extract coordinates from name. do this first
-        # since it may be much faster than sesame query
-        if use_parser:
-            from . import jparser
-            if jparser.search(name):
-                icrs_coord = jparser.to_skycoord(name, frame)
-            else:
-                # if the parser failed, do sesame query
-                icrs_coord = get_icrs_coordinates(name)
-        else:
-            icrs_coord = get_icrs_coordinates(name)
-
+        icrs_coord = get_icrs_coordinates(name, use_parser)
         icrs_sky_coord = cls(icrs_coord)
         if frame in ('icrs', icrs_coord.__class__):
             return icrs_sky_coord
